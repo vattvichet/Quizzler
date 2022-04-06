@@ -36,7 +36,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDP-xe-ffL"/>
+                                    <action selector="answerbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="umL-Ps-DkG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbn-vQ-GyC">
@@ -48,7 +48,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="answerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NsI-94-DG2"/>
+                                    <action selector="answerbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W9D-uQ-GPl"/>
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TXm-qh-7Xg">
