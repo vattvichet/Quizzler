@@ -65,9 +65,9 @@ class ViewController: UIViewController {
     
     @objc func updateUI() { //updateUI function used for update the question after the button got pressed.
         questionLabel.text = quiz[questionNumber].text
-        
         trueButton.backgroundColor = UIColor.clear
         fasleButton.backgroundColor = UIColor.clear
+        progressBar.progress = Float(questionNumber + 1) / Float(quiz.count)
     }
     
 
