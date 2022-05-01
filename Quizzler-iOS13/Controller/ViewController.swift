@@ -29,7 +29,7 @@ class ViewController: UIViewController {
       
         
         if userGotItRight {
-            sender.backgroundColor = UIColor.brown
+            sender.backgroundColor = UIColor.blue
         } else {
             sender.backgroundColor = UIColor.red
         }
