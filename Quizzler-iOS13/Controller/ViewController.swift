@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var scoreLabel: UILabel!
     
+    
+    
   var quizBrain = QuizBrain()
     
     override func viewDidLoad() {
@@ -23,6 +25,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func answerbutton(_ sender: UIButton) {
+        
         
         let userAnswer = sender.currentTitle! // True or False
         let userGotItRight = quizBrain.checkAnswer(userAnswer)
@@ -37,7 +40,6 @@ class ViewController: UIViewController {
         quizBrain.nextQuestion()
         
         Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
-        
     }
     @objc func updateUI() { //updateUI function used for update the question after the button got pressed.
         questionLabel.text = quizBrain.getQuestionText()
